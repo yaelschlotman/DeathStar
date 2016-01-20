@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ammo.cs" />
     <Compile Include="Armory.cs" />
     <Compile Include="CentralComputerCore.cs" />
     <Compile Include="CoolingSystem.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="SuperLaser.cs" />
     <Compile Include="Thermalexhaustport.cs" />
     <Compile Include="TractorBeam.cs" />
+    <Compile Include="turboLaser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

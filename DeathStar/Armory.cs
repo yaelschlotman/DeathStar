@@ -14,7 +14,7 @@ namespace TopSecretPlans
         string[] guns;
         string[] laserShooter;
         string[] grenadeLaunchers;
-        string[] bombThrower;
+        string[] turboLaser;
         string[] ammoType;
         string[] grenades;
         string[] bombs;
@@ -37,7 +37,7 @@ namespace TopSecretPlans
         }
         public void weaponsList()
         {
-            List<string[]> weapons = new List<string[]>() { guns, bombThrower, grenadeLaunchers, laserShooter }; 
+            List<string[]> weapons = new List<string[]>() { guns, turboLaser, grenadeLaunchers, laserShooter }; 
         }
 
         public void ammoList()
